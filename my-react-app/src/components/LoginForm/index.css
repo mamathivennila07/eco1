@@ -1,0 +1,60 @@
+.a {
+  height: 400px;
+  width: 700px;
+  padding: 40px;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.b {
+  display: flex;
+}
+.hb {
+  color: red;
+}
+.c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+}
+
+@media screen and (max-width: 576px) {
+  .b {
+    display: flex;
+    flex-direction: column;
+  }
+  .a {
+    width: 400px;
+    margin-left: 70px;
+    height: 300px;
+  }
+  .d {
+    order: -1;
+  }
+}
+input {
+  padding: 10px;
+  margin-top: 20px;
+  width: 200px;
+}
+button {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+}
+.d {
+  height: 170px;
+  width: 300px;
+}
+label {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bg {
+  font-size: 27px;
+}

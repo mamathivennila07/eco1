@@ -1,0 +1,61 @@
+.kw {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+.pty {
+  display: flex;
+  gap: 40px;
+}
+.jhg {
+  font-size: 20px;
+}
+.ybv {
+  display: flex;
+  flex-direction: column;
+}
+.vennila {
+  height: 40px;
+  width: 130px;
+  background-color: transparent;
+  color: blue;
+}
+.fdx {
+  height: 30px;
+  width: 60px;
+  background-color: transparent;
+  color: blue;
+}
+@media screen and (max-width: 576px) {
+  .kw {
+    height: 80px;
+    width: 80px;
+    padding: 2px;
+  }
+  .fdx {
+    height: 20px;
+    width: 40px;
+  }
+  .vennila {
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    color: blue;
+  }
+  .jhg {
+    font-size: 15px;
+  }
+  .pty {
+    margin-right: auto;
+    gap: 0px;
+  }
+  .ybv {
+    padding: 6px;
+  }
+  .ygb {
+    padding: 6px;
+  }
+  .padds {
+    padding: 6px;
+  }
+}

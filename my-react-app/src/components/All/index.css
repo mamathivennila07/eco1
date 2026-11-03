@@ -1,0 +1,13 @@
+.ji {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rv {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .rv {
+    margin-right: 100px;
+  }
+}

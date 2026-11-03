@@ -1,0 +1,40 @@
+.a {
+  height: 500px;
+  width: 500px;
+}
+.b {
+  display: flex;
+  justify-content: center;
+}
+.gt {
+  font-size: 30px;
+  padding: 3px;
+  margin: 10px;
+}
+.bf {
+  font-size: 24px;
+  padding: 3px;
+  margin: 10px;
+}
+.ui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+}
+@media screen and (max-width: 576px) {
+  .a {
+    order: -1;
+    width: 360px;
+    height: 350px;
+    margin-right: 80px;
+  }
+}

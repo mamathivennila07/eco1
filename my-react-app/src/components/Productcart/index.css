@@ -1,0 +1,37 @@
+.lk {
+  height: 240px;
+  width: 240px;
+}
+.m {
+  font-size: 20px;
+}
+.n {
+  font-size: 20px;
+}
+.jus {
+  padding: 20px;
+  list-style-type: none;
+}
+.u {
+  text-decoration: none;
+  color: black;
+}
+.jd {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .lk {
+    height: 190px;
+    width: 190px;
+  }
+  .jus {
+    margin-right: 50px;
+  }
+  .m {
+    font-size: 18px;
+  }
+  .n {
+    font-size: 17px;
+  }
+}

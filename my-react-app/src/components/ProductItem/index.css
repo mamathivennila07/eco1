@@ -1,0 +1,48 @@
+.uy {
+  display: flex;
+}
+.q {
+  height: 500px;
+  width: 600px;
+  padding: 20px;
+  margin: 20px;
+}
+.gz {
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+  gap: 60px;
+}
+.lod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.sts {
+  height: 30px;
+  width: 60px;
+  background-color: transparent;
+  color: blue;
+}
+@media screen and (max-width: 576px) {
+  .q {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .uy {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .sts {
+    height: 20px;
+    width: 40px;
+    background-color: transparent;
+    color: blue;
+  }
+  .gz {
+    flex-direction: column;
+  }
+}

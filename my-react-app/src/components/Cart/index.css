@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.fs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.tfcft {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.oiu {
+  padding-right: 80px;
+}
+.nbv {
+  font-size: 20px;
+}
+.vennila {
+  height: 40px;
+  width: 130px;
+  background-color: transparent;
+  color: red;
+  border-color: red;
+}
+@media screen and (max-width: 576px) {
+  .vennila {
+    height: 30px;
+    width: 90px;
+  }
+}

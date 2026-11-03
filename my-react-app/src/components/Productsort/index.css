@@ -1,0 +1,22 @@
+.yc {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .ty {
+    font-size: 20px;
+  }
+}
+.t {
+  display: flex;
+}
+@media screen and (min-width: 576px) {
+  .uiss {
+    margin-right: 40px;
+  }
+  .pvc {
+    height: 30px;
+    width: 120px;
+    margin-right: 80px;
+  }
+}

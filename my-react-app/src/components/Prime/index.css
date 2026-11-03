@@ -1,0 +1,19 @@
+.yg {
+  height: 500px;
+  width: 1250px;
+  margin: 20px;
+  align-self: center;
+}
+@media screen and (max-width: 576px) {
+  .yg {
+    height: 200px;
+    width: 300px;
+  }
+}
+.lod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 60px;
+}
